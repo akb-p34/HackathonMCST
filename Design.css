@@ -44,3 +44,27 @@ p {
     transform: translate(250px,0px);
 }
 
+#Screenshots{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 320px;
+}
+
+#Screenshot1{
+    width: 320px;
+    height: 240px;
+    border: 5px, solid, white;
+}
+
+#Screenshot2{
+    width: 320px;
+    height: 240px;
+    border: 5px, solid, white;
+}
+
+#Screenshot3{
+    width: 320px;
+    height: 240px;
+    border: 5px, solid, white;
+}
