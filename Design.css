@@ -1,18 +1,19 @@
 body{
-    font-family: 'Common Pixel', sans-serif;
-    background: black;
+    font-family: 'Press Start 2P', cursive;    background: black;
     color: green;
     font-size: 24px;
+    place-items: center;
 }
 
 header {
     display: grid;
     text-align: center;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 200px;
+    grid-template-rows: 300px;
     padding-top: 35px;
     padding-left: 35px;
     padding-right: 35px;
+    place-items: center;
 }
 
 #logo{
