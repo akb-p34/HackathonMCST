@@ -29,13 +29,18 @@ header {
     grid-column : 3/span 1;
 }
 
-h3 {
+#credits {
     text-align: center;
     font-style: italic;
     padding-bottom: 35px;
+    width: 66%;
+    transform: translate(250px,0px);
 }
 
 p {
     text-align: center;
     font-style: italic;
+    width: 66%;
+    transform: translate(250px,0px);
 }
+
