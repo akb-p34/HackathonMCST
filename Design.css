@@ -1,15 +1,24 @@
 body{
     font-family: 'Common Pixel', sans-serif;
+    background: black;
+    color: green;
+    font-size: 24px;
 }
 
 header {
     text-align: center;
 }
 
-h2 {
+h1{
+    image-rendering: pixelated;
+    padding: 35px;
+}
+
+h3 {
     font-style: italic;
 }
 
 p {
     text-align: center;
+    font-style: italic;
 }
