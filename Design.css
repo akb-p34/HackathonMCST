@@ -37,12 +37,6 @@ header {
     transform: translate(250px,0px);
 }
 
-#story {
-    text-align: center;
-    width: 66%;
-    transform: translate(250px,0px);
-}
-
 #Screenshots{
     display: grid;
     place-items: center;
@@ -67,6 +61,24 @@ header {
     width: 320px;
     height: 240px;
     grid-column : 3;
+}
+
+#story {
+    text-align: center;
+    width: 66%;
+    transform: translate(250px,0px);
+}
+
+#Downloader{
+    transform: translate(660px,0px);
+}
+
+#InstallButton{
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+    background-color: goldenrod;
+    font-family: 'Press Start 2P', cursive;
 }
 
 #ControlTable{
