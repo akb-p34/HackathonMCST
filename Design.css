@@ -6,16 +6,32 @@ body{
 }
 
 header {
+    display: grid;
     text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px;
+    padding-top: 35px;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
-h1{
+#logo{
     image-rendering: pixelated;
-    padding: 35px;
+    grid-column : 2/span 1;    
+}
+
+#bitcoin1{
+    grid-column : 1/span 1;
+}
+
+#bitcoin2{
+    grid-column : 3/span 1;
 }
 
 h3 {
+    text-align: center;
     font-style: italic;
+    padding-bottom: 35px;
 }
 
 p {
