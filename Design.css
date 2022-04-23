@@ -37,13 +37,6 @@ header {
     transform: translate(250px,0px);
 }
 
-#credits {
-    text-align: center;
-    font-style: italic;
-    width: 66%;
-    transform: translate(250px,0px);
-}
-
 #story {
     text-align: center;
     width: 66%;
@@ -55,7 +48,7 @@ header {
     place-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
-    border: 5px solid white;
+    border: 5px solid goldenrod;
 }
 
 #Screenshot1{
